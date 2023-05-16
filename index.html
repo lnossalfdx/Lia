@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENIMÓLOGAN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+
+    <h1>Seja bem vinda ao ENIMÓLOGAN!</h1>
+    <p id="p01">Quando estiver pronta mozi, clique no botão abaixo para começar o tutorial! </p>
+    <input type="button" class="butt" value="Começar!" onclick="iniciar()" id='botãoiniciar'>
+    
+
+    <p style="display: none;" id='teste1'>
+        A data que transamos pela primeira vez!
+        <input type="date" name="dad" id="txtdateinicial">
+        <input type="button" class="butt" value="verificar!" onclick="analisar()">
+    </p>
+    <p id="erradaresposta" style="display: none;"></p>
+    <p id="lia" style="display: none;">oi</p>
+    <p id='certaresposta'style="display:none;">Você acertou, amanhã faço outros exemplos: </p>
+    <input type="button" class="butt" value="Iniciar aventura!"  id="nextlevel" style="display:none;" >
+    
+
+
+    <script src="index.js"></script>
+
+</body>
+</html>
